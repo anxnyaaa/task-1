@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar home="Home" about= "About" review="Reviews" contact="Contacts"/>
+      <Navbar home= "Home" about= "About" review="Reviews" contact="Contacts"/>
       <Sidebar hello= "Hello" pd= "Portfolio" service = "Services" so="Sign out" />
     </div>
   );
