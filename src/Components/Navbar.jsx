@@ -1,27 +1,21 @@
 import React from 'react'
 import "./Navbar.css";
 
-function Navbar() {
-  return (
-    /*<div className="topnav">
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-    </div>*/
+import './adelia.ttf';
 
-    <div className="main-1">
- 
-  <nav>
- 
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#write for us">Write for us</a></li>
-    </ul>
-  </nav>
-</div>
+function Navbar(props) {
+  return (
+    <div className="topnav">
+      <nav>
+      <h1>Ananya Pal</h1>  
+        <ul>
+          <li><a class="active" href="#home">{props.home}</a></li>
+          <li><a href="#about">{props.about}</a></li>
+          <li><a href="#review">{props.review}</a></li>
+          <li><a href="#contact">{props.contact}</a></li>          
+        </ul>
+      </nav>
+    </div>
   );
 }
 

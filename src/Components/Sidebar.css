@@ -1,49 +1,46 @@
 .sidebar {
-    position: fixed;
-    left: 0;
-    width: 250px;
-    height: 100%;
-    background-color: black;
-    list-style: none;
-  }
+  position: fixed;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: aliceblue;
+  list-style: none;
+}
   
-  .sidebar  ul a {
-   display: block;
-   height: 100%;
-   width: 100%;
-   line-height: 65px;
-    color: white;
-    box-sizing: border-box;
-    padding-left: 40px;
-    border-top: 1px solid white;
-    list-style: none;
-  }
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 69px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  list-style: none;
+}
   
-  .sidebar li a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    display: block;
-    border-bottom: 1px solid white;
-    list-style: none;
-    font-weight: bold;
-    font:  sans-serif;
-    text-align: center;
-  }
-  
-  .sidebar  a:not(:last-child) {
-    border-bottom: 1px solid white;
-  }
-  
-  .sidebar  li:last-child {
-    margin-top: 300px;
-    margin-bottom: 30px;
-    border: 0.5px solid white;
-    line-height: 40px;
-  }
+.sidebar li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  display: block;
+  border-bottom: 2px solid black;
+  list-style: none;
+  font-weight: bold;
+  font:  sans-serif;
+  text-align: center;
+}
 
-  .logo img {
-    height: 80px; 
-    border-radius: 10px;
-  }  
+.sidebar li a:first-child img {
+  width: 20px;
+  height: 20px;
+}
+  
+.sidebar  a:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+  
+.sidebar  li:last-child {
+  border-top: 2px solid black;
+  margin-top: 52vh;
+  line-height: 40px;
+}
   
